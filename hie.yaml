@@ -1,0 +1,16 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "yolo:lib"
+
+    - path: "./app/main.hs"
+      component: "yolo:exe:yolo"
+
+    - path: "./app/DevelMain.hs"
+      component: "yolo:exe:yolo"
+
+    - path: "./app/Paths_yolo.hs"
+      component: "yolo:exe:yolo"
+
+    - path: "./test"
+      component: "yolo:test:yolo-test"
